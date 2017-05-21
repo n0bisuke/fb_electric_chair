@@ -1,7 +1,7 @@
 {
   "name": "fb_electric_chair",
   "version": "1.0.0",
-  "description": "- [FBページのいいねボタンを押すと社長の椅子に電流的な物が流れる装置を制作したい](https://camp-fire.jp/projects/view/27200) - FB https://www.facebook.com/burghamburgburg/ -> 283763514989611 - Find My Facebook ID https://findmyfbid.com/",
+  "description": "[FBページのいいねボタンを押すと社長の椅子に電流的な物が流れる装置を制作したい](https://camp-fire.jp/projects/view/27200) - FB https://www.facebook.com/burghamburgburg/ -> 283763514989611 - Find My Facebook ID https://findmyfbid.com/",
   "main": "server.js",
   "dependencies": {
     "axios": "^0.16.1",
