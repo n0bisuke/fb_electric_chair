@@ -17,6 +17,7 @@ app.get('/', (req, res) => {
             like: like,
             mes: `${FBURL}のいいね数は${like}です。`
         };
+        
         res.contentType('application/json');
         res.send(result);
     })
