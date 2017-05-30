@@ -7,6 +7,7 @@ const FBURL = `https://www.facebook.com/burghamburgburg/`;
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
+
     axios.get(FBURL)
     .then((response) => {
         const html = response.data;
@@ -16,6 +17,7 @@ app.get('/', (req, res) => {
             like: like,
             mes: `${FBURL}のいいね数は${like}です。`
         };
+        res.contentType('application/json');
         res.send(result);
     })
     .catch((error) => {
