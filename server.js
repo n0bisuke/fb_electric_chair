@@ -13,12 +13,17 @@ app.get('/', (req, res) => {
         const html = response.data;
         const like = html.match(/#xff01;(.*?)&#x4ef6;/)[1];
         console.log(like);
-        res.send(`${FBURL}のいいね数は${like}です。`);
+        const result = {
+            like: like,
+            mes: `${FBURL}のいいね数は${like}です。`
+        }
+        res.send(result);
     })
     .catch((error) => {
         console.log(error);
     });
 
 });
- 
+
 app.listen(PORT);
+console.log(`server listen at ${PORT}`);
