@@ -10,7 +10,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node server"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
     "url": "https://github.com/n0bisuke/fb_electric_chair/issues"
   },
   "engines": {
-    "node": "8.0.0"
+    "node": "7.10.0"
   },
   "homepage": "https://github.com/n0bisuke/fb_electric_chair#readme"
 }
