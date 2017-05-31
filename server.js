@@ -1,8 +1,9 @@
 'use strict';
 
+const axios = require(`axios`);
 const express = require('express');
 const app = express();
-const axios = require(`axios`);
+
 const FBURL = `https://www.facebook.com/burghamburgburg/`;
 const PORT = process.env.PORT || 3000;
 
