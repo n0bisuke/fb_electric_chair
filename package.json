@@ -23,7 +23,7 @@
     "url": "https://github.com/n0bisuke/fb_electric_chair/issues"
   },
   "engines": {
-    "node": "6.10.0"
+    "node": "8.0.0"
   },
   "homepage": "https://github.com/n0bisuke/fb_electric_chair#readme"
 }
